@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GreenFlag_IniOwofemi</string>
+    <string name="createAnAccount">Green Flag customers can\create an account to access</string>
+    <string name="incentive1">Car health updates</string>
+    <string name="incentive2">Request a rescue online</string>
+    <string name="incentive3">Policy information</string>
+    <string name="createAnAccountButton">Create an account</string>
+    <string name="greenflaglogodesc">greenFlagLogoDesc</string>
+    <string name="tick1desc">tick1Desc</string>
+    <string name="tick3desc">tick3Desc</string>
+    <string name="tick2desc">tick2Desc</string>
+    <string name="createAccountHeader">Create an account</string>
+    <string name="emailAddressHeader">Email address</string>
+    <string name="emailPrompt">Enter your email address…</string>
+    <string name="passwordHeader">Create password</string>
+    <string name="passwordPrompt">Enter your password…</string>
+    <string name="repeatPasswordHeader">Repeat password</string>
+    <string name="repeatPasswordPrompt">Enter your password again…</string>
+    <string name="passwordCriteria">Your password should have a minimum of 8\ncharacters and contain at least one\nnumber, one uppercase and one lower-\ncase letter. You can use special characters.</string>
+    <string name="nextButtonText">Next</string>
+    <string name="emailInvalid">Your email is not valid</string>
+    <string name="passwordsMismatch">Your passwords don\'t match</string>
+</resources>

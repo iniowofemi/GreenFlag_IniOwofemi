@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/greenFlagLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/greenflaglogodesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_green_flag" />
+
+    <TextView
+        android:id="@+id/createAccountPrompt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/museosans_500"
+        android:text="@string/createAnAccount"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greenFlagLogo" />
+
+    <ImageView
+        android:id="@+id/tick1"
+        android:layout_width="21dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/incentive1"
+        app:layout_constraintStart_toStartOf="@+id/createAccountPrompt"
+        app:layout_constraintTop_toBottomOf="@+id/createAccountPrompt"
+        app:srcCompat="@drawable/tick" />
+
+    <ImageView
+        android:id="@+id/tick2"
+        android:layout_width="21dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/createAccountPrompt"
+        app:layout_constraintTop_toBottomOf="@+id/tick1"
+        app:srcCompat="@drawable/tick" />
+
+    <ImageView
+        android:id="@+id/tick3"
+        android:layout_width="21dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/createAccountPrompt"
+        app:layout_constraintTop_toBottomOf="@+id/tick2"
+        app:srcCompat="@drawable/tick" />
+
+    <TextView
+        android:id="@+id/incentive1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/incentive1"
+        android:textColor="#F4F3F3"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tick1"
+        app:layout_constraintTop_toBottomOf="@+id/createAccountPrompt" />
+
+    <TextView
+        android:id="@+id/incentive2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/incentive2"
+        android:textColor="#F4F3F3"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tick2"
+        app:layout_constraintTop_toBottomOf="@+id/incentive1" />
+
+    <TextView
+        android:id="@+id/incentive3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/incentive3"
+        android:textColor="#F4F3F3"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tick3"
+        app:layout_constraintTop_toBottomOf="@+id/incentive2" />
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/gradient_button_background"
+        android:text="@string/createAnAccountButton"
+        android:onClick="launchSecondActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
